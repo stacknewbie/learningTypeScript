@@ -13,6 +13,14 @@ class User {
             `First name : ${this.firstname}\nLast name : ${this.lastname}\nAge: ${this.age}`
         )
     }
+    
+    getOnlineStatus(online: boolean) {
+        if (online === true) {
+        return (
+            true;
+        )
+       }
+    }
 }
 
 const user1 = new User('John', 'Doe', 23);
